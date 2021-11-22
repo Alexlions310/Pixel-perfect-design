@@ -1,0 +1,447 @@
+/* styling heading section for desktops */
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+   .brand{
+       margin-right: 50px;
+   }
+}
+/* styling lorem section for desktops */
+@media screen and (max-width: 1365px) and (min-width: 1024px) {
+   .lorem__img{
+       width: 600px;
+       height: 500px;
+   }
+   .lorem__main_paragraph{
+       width: 411px;
+       height: 230px;
+   }
+   .lorem__last_paragraph{
+       width: 411px;
+   }
+}
+/* styling consectetur section for desktops */
+
+@media screen and (max-width: 1360px) and (min-width: 1250px) {
+    .consectetur__img{
+        width:580px;
+        height: 400px;
+ }
+}
+
+@media screen and (max-width: 1249px) and (min-width: 1024px) {
+    .consectetur__img{
+        width:480px;
+        height: 360px;
+    }
+    .consectetur__p{
+        padding-left: 40px;
+        padding-top: 136px;
+    }
+    .slash{
+        padding-left: 39px;
+    }
+
+}
+
+/* styling  tempor section for desktops */
+
+@media screen and (max-width: 1249px) and (min-width: 1024px) {
+   .tempor__img{
+       width: 500px;
+       height: 360px;
+   }
+   .tempor__heading{
+       padding-top: 132px;
+   }
+}
+
+/* styling  magna section for desktops */
+
+@media screen and (max-width: 1430px) and (min-width: 1024px) {
+    .sliderPrevBtn{
+        display: inline;
+    }
+    .sliderNextBtn{
+        display: inline;
+    }
+    .productContainer{
+        padding-right: 40px;
+    }
+}
+
+
+/* styling reprehenderit section for desktops */
+
+@media screen and (max-width: 1350px) and (min-width: 1134px) {
+      .email{
+          width: 330px;
+      }
+}
+
+@media screen and (max-width: 1133px) and (min-width: 1024px) {
+  .contact_section{
+      padding-left: 50px;
+  }
+  .email{
+    width: 330px;
+  }
+}
+
+/* styling advertising section for tablets, mobile phones etc */
+
+@media screen and (max-width:1023px){
+   .advertising{
+       background-color: #F1F1F1;
+       height: 32px;
+    }
+    .advertising__info {
+       padding-bottom: 6px;
+       padding-top: 6px;
+    }
+}
+
+/* styling header section for tablets, mobile phones etc */
+
+@media screen and (max-width:1023px){
+     .header__link{
+         display: none;
+     }
+     .icons__search{
+         display: none;
+     }
+     .icons__person{
+         display: none;
+     }
+     .header__elements{
+        display: block;
+     }
+     .brand{
+         margin: 0px;
+         text-align: center;
+         font-size: 19.2px;
+         letter-spacing: 3.2px;
+         padding-top: 14px;
+         padding-bottom: 14px;
+     }
+     .toogle-btn{
+         display: block;
+         position: absolute;
+         top: 21px;
+         left: 16px;
+     }
+     .toogle-btn span {
+         display: block;
+         background-color:  #000000;
+         width: 16px;
+         height: 2px;
+         margin-bottom: 4px;
+     }
+     .icons{
+        top:19px;
+        right: 17px;
+     }
+     
+}
+
+/* styling Lorem section for tablets, mobile phones etc */
+@media screen and (max-width:1023px){
+    .lorem{
+      display: block;
+      height: 100%;
+      position: static;
+    }
+    .lorem__heading{
+        height: 23px;
+        width: 249px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+        padding-top: 45px;
+        padding-left: 16px;
+        padding-bottom: 19px;
+    }
+    .lorem__p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .lorem__main_paragraph{
+        height: 100%;
+        width: 90%;
+        padding-left: 16px;
+        margin-right: 16px;
+     }
+     .lorem__last_paragraph{
+        height: 40px;
+        width: 90%;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+     }
+
+    .lorem__img{
+        position:static;
+        padding-left: 0px;
+        padding-bottom: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .lorem__right_side{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+/* styling consectetur section for tablets, mobile phones etc */
+@media screen and (max-width:1023px){
+.consectetur{
+    display: block;
+ }
+.consectetur__img_container{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+ .consectetur__img{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    margin-left: 0px;
+}
+
+.consectetur__p{
+    padding-top: 0px;
+    padding-left: 17px;
+    height: 100%;
+    width: 93%;
+    font-size: 12px;
+    line-height: 20px;
+}
+.slash{
+    padding-left: 16px;
+}
+
+.arcaP{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+}
+
+.consectetur__p1{
+    height: 100%;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+.consectetur__p2{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 16px;
+}
+.consectetur__p3{
+    height: 100%;
+    width: 100%;
+    padding-right: 16px;
+    padding-bottom: 40px;
+} 
+
+.consectetur__slash1{
+    padding-bottom: 0px;
+}
+
+}
+@media screen and (max-width:440px){
+    .consectetur__slash1{
+        padding-bottom: 16px;
+    }
+}
+@media screen and (max-width:374px){
+    .consectetur__slash2{
+        padding-bottom: 33px;
+    }
+}
+
+@media screen and (max-width:411px){
+    .consectetur__slash3{
+        padding-bottom: 74px;
+    }
+}
+@media screen and (max-width: 319px){
+    .consectetur__slash3{
+        padding-bottom: 93px;
+    }
+}
+
+
+/* styling tempor section for tablets, mobile phones etc */
+
+@media screen and (max-width:1023px){
+    .tempor{
+        display: block;
+        position: static;
+    }
+    .tempor__heading_container{
+        margin-left: 16px;
+        margin-right:16px;
+    }
+    .tempor__heading{
+        padding: 40px 0px 24px 0px;
+        height: 100%;
+        width: 100%;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 0.08em;
+    }
+    .tempor__img{
+        position: static;
+        width: 100%;
+    }
+    .tempor__img_container{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 40px;
+    }
+}
+
+/* styling magna section for tablets, mobile phones etc  */
+
+@media screen and (max-width:1023px){
+.magna__heading{
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+ }
+ .productContainer{
+    margin-left: 16px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+ }
+ .product{
+    margin-right: 0px;
+ }
+ 
+ .product__img{
+     width: 167px;
+     height: 209px;
+ }
+
+.sliderPrevBtn{
+    display: inline;
+    top: 100px;
+    left: 10px;
+    width: 8px;
+    height: 8px;
+}
+.sliderNextBtn{
+    display: inline;
+    top: 100px;
+    right: 9px;
+    width: 8px;
+    height: 8px;
+}
+
+}
+
+@media screen and (max-width:383px){
+    .sliderNextBtn{
+        right: 1px;
+    }
+}
+
+/* styling REPREHENDERIT section for tablets, mobile phones etc  */
+@media screen and (max-width: 1023px){
+    .reprehenderitContainer{
+        height: 100%;
+    }
+    .reprehenderit{
+        display: block;
+    }
+    .contact_section{
+        padding-left: 16px;
+        padding-top: 40px;
+        background-image:none;
+     }
+     .contact_section__p{
+        padding-bottom: 32px;
+    }
+
+    .email{
+        width: 90%;
+        padding-bottom: 13px;
+    }
+    .socialMedia{
+        padding-bottom: 42px;
+      }
+}
+
+
+/* styling about us section for tablets, mobile phones etc  */
+@media screen and (max-width:1023px){
+    .aboutUsSection{
+        padding-left: 16px;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .aboutLine{
+        position: relative;
+    }
+    .aboutUsSection__line{
+        position: absolute;
+        right:20px;
+        top:10px;
+        display: inline;
+    }
+    .aboutUsSection__line:hover{
+        cursor: pointer;
+    }
+    .linkContainer{
+        padding-bottom: 8px;
+    }
+
+}
+
+/*  styling help section for tablets, mobile phones etc */
+@media screen and (max-width: 1023px){
+    .helpSection{
+        padding-top: 17px;
+        margin-left: 16px;
+      }
+    .helpLine{
+        position: relative;
+    }
+    .helpSection__line{
+        display: inline;
+        position: absolute;
+        top:10px;
+        right:20px;
+    }
+    .helpSection__line:hover{
+        cursor: pointer;
+    }
+    .sectionHeadingContainer{
+        padding-bottom: 16px;
+    }
+    .links{
+        height: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .copyright{
+        padding-top: 32px;
+        padding-bottom: 16px;
+        background-position:  50% 0px;
+        background-repeat: no-repeat;
+        background-image: url('../assets/icons/footerIcon.svg');
+    }
+}
+
+
